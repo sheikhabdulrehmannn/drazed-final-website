@@ -150,15 +150,21 @@ const Contact = () => {
                 
                 {/* Google Map */}
                 <div className="mb-8 rounded-2xl overflow-hidden shadow-lg">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3402.623439031761!2d74.2764988151494!3d31.47954998138243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391903e3a4b9e979%3A0x6b8b07e5c46ad5b6!2sOmer%20Chowk%20Bund%20Rd%2C%20Lahore%2C%20Punjab%2C%20Pakistan!5e0!3m2!1sen!2s!4v1689862899452!5m2!1sen!2s"
-                    width="100%"
-                    height="300"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                  ></iframe>
+                  <img
+                    src="https://i.postimg.cc/cHVTR6Qj/Screenshot-2025-08-15-152611.png"
+                    alt="Millat Polymer Location Map"
+                    className="w-full h-80 object-cover"
+                  />
+                  <div className="p-4 bg-white text-center">
+                    <a
+                      href="https://www.google.com/maps/place/Millat+Polymer+%26+Rubber+(+Pvt+)+Ltd/@31.5459712,74.2594674,17z/data=!3m1!4b1!4m6!3m5!1s0x391902d73f4f1233:0x679e8ae410d24eb2!8m2!3d31.5459712!4d74.2620477!16s%2Fg%2F11fzjnz6mv?entry=ttu&g_ep=EgoyMDI1MDgxMi4wIKXMDSoASAFQAw%3D%3D"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-blue-600 hover:text-blue-800 font-semibold transition-colors"
+                    >
+                      See in Maps
+                    </a>
+                  </div>
                 </div>
 
                 {/* Address */}

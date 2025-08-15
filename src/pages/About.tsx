@@ -81,7 +81,7 @@ const About = () => {
       </section>
 
       {/* Manufacturing Capabilities */}
-      <section className="relative section-padding overflow-hidden bg-gray-800">
+      <section className="relative section-padding overflow-hidden bg-blue-900">
         <video
           autoPlay
           loop
@@ -92,14 +92,14 @@ const About = () => {
         >
           <source src="/videos/warehouse-workers.mp4" type="video/mp4" />
         </video>
-        <div className="absolute inset-0 bg-gray-800/80" />
+        <div className="absolute inset-0 bg-blue-900/80" />
         
         <div className="relative z-10 container mx-auto px-4">
           <div className="text-center mb-16 scale-in">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
-              Our Manufacturing <span className="text-gray-300">Capabilities</span>
+              Our Manufacturing <span className="text-white">Capabilities</span>
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-white max-w-3xl mx-auto">
               Our state-of-the-art facility is equipped to handle large-scale production while maintaining the highest quality standards.
             </p>
           </div>
@@ -113,8 +113,8 @@ const About = () => {
               { text: 'Global Export Logistics' },
               { text: 'Skilled Engineering Team' }
             ].map((tag, index) => (
-              <div key={index} className="fade-in-up bg-gray-300/90 backdrop-blur-sm p-4 rounded-xl text-center shadow-lg lift-hover">
-                <p className="font-semibold text-gray-800">{tag.text}</p>
+              <div key={index} className="fade-in-up bg-white/90 backdrop-blur-sm p-4 rounded-xl text-center shadow-lg lift-hover">
+                <p className="font-semibold text-blue-900">{tag.text}</p>
               </div>
             ))}
           </div>

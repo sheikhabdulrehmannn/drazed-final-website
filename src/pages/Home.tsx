@@ -312,16 +312,16 @@ const Home = () => {
       </section>
 
       {/* Contact Teaser */}
-      <section className="section-padding bg-blue-800 text-gray-300">
+      <section className="section-padding bg-blue-900 text-white">
         <div className="container mx-auto px-4 text-center">
           <div className="scale-in max-w-3xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
               Need a Custom Solution?
             </h2>
-            <p className="text-xl mb-8 opacity-90">
+            <p className="text-xl mb-8 text-white opacity-90">
               We specialize in custom parts designed to your exact specifications.
             </p>
-            <Link to="/contact" className="bg-gray-300 text-blue-800 hover:bg-gray-200 px-8 py-4 rounded-lg font-semibold transition-colors">
+            <Link to="/contact" className="bg-white text-blue-900 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-colors">
               Get In Touch
             </Link>
           </div>

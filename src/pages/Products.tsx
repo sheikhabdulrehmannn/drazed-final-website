@@ -667,19 +667,19 @@ const Products = () => {
         whileInView={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: "easeOut" }}
         viewport={{ once: true }}
-        className="section-padding bg-blue-800 text-gray-300"
+        className="section-padding bg-blue-900 text-white"
       >
         <div className="container mx-auto px-4 text-center">
           <div className="max-w-3xl mx-auto">
             <h2 className="text-3xl lg:text-4xl font-bold mb-6">
               Can't find what you're looking for?
             </h2>
-            <p className="text-xl mb-8 opacity-90">
+            <p className="text-xl mb-8 text-white opacity-90">
               We offer custom parts too. Contact us to discuss your specific needs.
             </p>
             <Link 
               to="/get-in-touch" 
-              className="bg-gray-300 text-blue-800 hover:bg-gray-200 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-block"
+              className="bg-white text-blue-900 hover:bg-gray-100 px-8 py-4 rounded-lg font-semibold transition-all duration-300 transform hover:scale-105 hover:shadow-lg inline-block"
             >
               Request Custom Part
             </Link>
