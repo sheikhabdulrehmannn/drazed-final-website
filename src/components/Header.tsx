@@ -100,8 +100,8 @@ const Header = () => {
                       className={`relative px-3 xl:px-4 py-3 whitespace-nowrap transition-all duration-200 flex items-center ${
                         location.pathname === link.href ||
                         (link.dropdown && link.dropdown.some(item => location.pathname === item.href))
-                          ? 'text-[#1e3a8a] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-[#1e3a8a]'
-                          : 'hover:text-[#1e3a8a]'
+                          ? 'text-blue-600 after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-blue-600'
+                          : 'text-blue-600 hover:text-blue-800'
                       }`}
                     >
                       {link.name}
@@ -113,7 +113,7 @@ const Header = () => {
                           <Link
                             key={item.name}
                             to={item.href}
-                            className="block px-5 py-3 text-gray-700 hover:bg-gray-200 hover:text-[#1e3a8a] transition-colors text-sm font-medium"
+                            className="block px-5 py-3 text-gray-700 hover:bg-gray-200 hover:text-blue-600 transition-colors text-sm font-medium"
                           >
                             {item.name}
                           </Link>
@@ -126,8 +126,8 @@ const Header = () => {
                     to={link.href}
                     className={`relative px-3 xl:px-4 py-3 whitespace-nowrap transition-all duration-200 ${
                       location.pathname === link.href
-                        ? 'text-[#1e3a8a] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-[#1e3a8a]'
-                        : 'hover:text-[#1e3a8a]'
+                        ? 'text-blue-600 after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-blue-600'
+                        : 'text-blue-600 hover:text-blue-800'
                     }`}
                   >
                     {link.name}
@@ -190,8 +190,8 @@ const Header = () => {
                       className={`flex items-center justify-between w-full text-base font-semibold transition-colors py-2.5 border-b border-gray-100 tracking-wide ${
                         location.pathname === link.href ||
                         link.dropdown.some(item => location.pathname === item.href)
-                          ? 'text-[#1e3a8a]'
-                          : 'text-gray-700 hover:text-[#1e3a8a]'
+                          ? 'text-blue-600'
+                          : 'text-blue-600 hover:text-blue-800'
                       }`}
                       onClick={() => setIsMenuOpen(false)}
                     >
@@ -201,7 +201,7 @@ const Header = () => {
                       <Link
                         key={item.name}
                         to={item.href}
-                        className="block pl-4 py-2 text-gray-700 hover:text-[#1e3a8a] text-sm"
+                        className="block pl-4 py-2 text-blue-600 hover:text-blue-800 text-sm"
                         onClick={() => setIsMenuOpen(false)}
                       >
                         {item.name}
@@ -213,8 +213,8 @@ const Header = () => {
                     to={link.href}
                     className={`relative px-2 xl:px-2.5 py-2 whitespace-nowrap transition-all duration-200 ${
                       location.pathname === link.href
-                        ? 'text-[#1e3a8a] after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-[#1e3a8a]'
-                        : 'hover:text-[#1e3a8a]'
+                        ? 'text-blue-600 after:absolute after:left-0 after:bottom-0 after:w-full after:h-[2px] after:bg-blue-600'
+                        : 'text-blue-600 hover:text-blue-800'
                     }`}
                     onClick={() => setIsMenuOpen(false)}
                   >
